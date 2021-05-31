@@ -1,9 +1,9 @@
-package cn.com.lezz.aliyunSms;
+package cn.coonu.aliyunSms;
 
-import cn.com.lezz.aliyunSms.vo.Result;
-import cn.com.lezz.aliyunSms.vo.SendSmsProfile;
-import cn.com.lezz.aliyunSms.exception.checkException.OutOfSizeException;
-import cn.com.lezz.aliyunSms.sms.SMS;
+import cn.coonu.aliyunSms.vo.Result;
+import cn.coonu.aliyunSms.vo.SendSmsProfile;
+import cn.coonu.aliyunSms.exception.checkException.OutOfSizeException;
+import cn.coonu.aliyunSms.sms.SMS;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 

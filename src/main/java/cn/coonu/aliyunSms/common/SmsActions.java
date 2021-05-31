@@ -1,4 +1,4 @@
-package cn.com.lezz.aliyunSms.common;
+package cn.coonu.aliyunSms.common;
 
 import java.util.ArrayList;
 import java.util.List;

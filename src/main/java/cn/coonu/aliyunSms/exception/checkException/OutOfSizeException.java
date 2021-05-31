@@ -1,6 +1,6 @@
-package cn.com.lezz.aliyunSms.exception.checkException;
+package cn.coonu.aliyunSms.exception.checkException;
 
-import cn.com.lezz.aliyunSms.exception.SmsException;
+import cn.coonu.aliyunSms.exception.SmsException;
 
 /**
  * 超过规定大小

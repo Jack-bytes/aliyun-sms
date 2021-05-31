@@ -1,7 +1,7 @@
-package cn.com.lezz.aliyunSms.exception.unCheckException;
+package cn.coonu.aliyunSms.exception.unCheckException;
 
-import cn.com.lezz.aliyunSms.common.SmsActions;
-import cn.com.lezz.aliyunSms.exception.SmsRuntimeException;
+import cn.coonu.aliyunSms.common.SmsActions;
+import cn.coonu.aliyunSms.exception.SmsRuntimeException;
 
 /**
  * 非法的action参数异常

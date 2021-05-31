@@ -1,10 +1,13 @@
-package cn.com.lezz.aliyunSms.sms;
+package cn.coonu.aliyunSms.sms;
 
-import cn.com.lezz.aliyunSms.common.SmsActions;
-import cn.com.lezz.aliyunSms.common.SmsUtil;
-import cn.com.lezz.aliyunSms.exception.unCheckException.IllegalActionException;
-import cn.com.lezz.aliyunSms.vo.Result;
-import cn.com.lezz.aliyunSms.vo.SendSmsProfile;
+import cn.coonu.aliyunSms.common.SmsActions;
+import cn.coonu.aliyunSms.common.SmsUtil;
+import cn.coonu.aliyunSms.exception.unCheckException.IllegalActionException;
+import cn.coonu.aliyunSms.vo.Result;
+import cn.coonu.aliyunSms.vo.SendSmsProfile;
+import cn.coonu.aliyunSms.exception.checkException.OutOfSizeException;
+import cn.coonu.aliyunSms.exception.unCheckException.IllegalProfileException;
+import cn.coonu.aliyunSms.vo.SmsProfile;
 import com.aliyuncs.CommonRequest;
 import com.aliyuncs.CommonResponse;
 import com.aliyuncs.DefaultAcsClient;
@@ -14,9 +17,6 @@ import com.aliyuncs.exceptions.ServerException;
 import com.aliyuncs.http.MethodType;
 import com.aliyuncs.profile.DefaultProfile;
 import com.google.gson.Gson;
-import cn.com.lezz.aliyunSms.exception.checkException.OutOfSizeException;
-import cn.com.lezz.aliyunSms.exception.unCheckException.IllegalProfileException;
-import cn.com.lezz.aliyunSms.vo.SmsProfile;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

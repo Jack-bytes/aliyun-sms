@@ -1,4 +1,4 @@
-package cn.com.lezz.aliyunSms.vo;
+package cn.coonu.aliyunSms.vo;
 
 import com.google.gson.annotations.SerializedName;
 import lombok.Getter;

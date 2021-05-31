@@ -1,4 +1,4 @@
-package cn.com.lezz.aliyunSms.exception;
+package cn.coonu.aliyunSms.exception;
 
 /**
  * 检查异常

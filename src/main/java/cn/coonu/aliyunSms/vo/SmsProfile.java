@@ -1,6 +1,6 @@
-package cn.com.lezz.aliyunSms.vo;
+package cn.coonu.aliyunSms.vo;
 
-import cn.com.lezz.aliyunSms.common.SmsActions;
+import cn.coonu.aliyunSms.common.SmsActions;
 import lombok.*;
 import lombok.experimental.Accessors;
 
